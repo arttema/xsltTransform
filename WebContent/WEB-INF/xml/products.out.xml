@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:g="http://www.example.org/products" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<body>
+<h2>chopper</h2>
+<table border="1">
+<tr bgcolor="#9acd32">
+<th>Producer</th><th>Model</th><th>Date fo Issue</th><th>Color</th><th>Price</th>
+</tr>
+<tr>
+<td>Harley Davidson</td><td>AO000</td><td>11-08-2013</td><td>yellow</td><td>40000</td>
+</tr>
+</table>
+<form action="xsltcontroller?action=add&amp;productSubcategory=chopper&amp;productCategory=motorcycles" method="post">
+<button type="submit" name="subject">Add</button>
+</form>
+<form action="xsltcontroller?action=back&amp;productSubcategory=chopper&amp;productCategory=motorcycles&amp;page=subcategories" method="post">
+<button type="submit" name="subject">Back</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>  
+<!--  !DOCTYPE products SYSTEM "products.dtd"  -->
+<g:products xmlns:g="http://www.example.org/products"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.org/products products.xsd">
+    <g:category name="electronics">
+        <g:subcategory name="computers">
+            <g:good>
+                <g:producer>Sony</g:producer>
+                <g:model>ms112</g:model>
+                <g:issuedate>01-03-2013</g:issuedate>
+                <g:color>white</g:color>
+                <g:price>1300</g:price>
+            </g:good>
+            <g:good>
+                <g:producer>Asus</g:producer>
+                <g:model>MD131</g:model>
+                <g:issuedate>04-06-2013</g:issuedate>
+                <g:color>red</g:color>
+                <g:price>1333</g:price>
+            </g:good>
+        </g:subcategory>
+        <g:subcategory name="phones">
+            <g:good>
+                <g:producer>Apple</g:producer>
+                <g:model>PH588</g:model>
+                <g:issuedate>12-05-2013</g:issuedate>
+                <g:color>black</g:color>
+                <g:price>800</g:price>
+            </g:good>
+            <g:good>
+                <g:producer>Samsung</g:producer>
+                <g:model>GL301</g:model>
+                <g:issuedate>09-08-2013</g:issuedate>
+                <g:color>black</g:color>
+                <g:price>600</g:price>
+            </g:good>
+            <g:good>
+                <g:producer>Nokia</g:producer>
+                <g:model>CP310</g:model>
+                <g:issuedate>04-08-2013</g:issuedate>
+                <g:color>blue</g:color>
+                <g:notinstock />
+            </g:good>
+    </g:subcategory>
+    </g:category>
+    <g:category name="motorcycles">
+        <g:subcategory name="chopper">
+            <g:good>
+                <g:producer>Harley Davidson</g:producer>
+                <g:model>AO000</g:model>
+                <g:issuedate>11-08-2013</g:issuedate>
+                <g:color>yellow</g:color>
+                <g:price>40000</g:price>
+            </g:good>
+        </g:subcategory>
+        <g:subcategory name="streetfighter">
+            <g:good>
+                <g:producer>Kawasaki Ninja</g:producer>
+                <g:model>MK101</g:model>
+                <g:issuedate>12-08-2012</g:issuedate>
+                <g:color>green</g:color>
+                <g:price>10000</g:price>
+            </g:good>
+        </g:subcategory>
+        <g:subcategory name="goldenwing">
+            <g:good>
+                <g:producer>Honda</g:producer>
+                <g:model>RR991</g:model>
+                <g:issuedate>20-01-2012</g:issuedate>
+                <g:color>red</g:color>
+                <g:notinstock />
+            </g:good>
+        </g:subcategory>
+    </g:category>
+    
+</g:products>
